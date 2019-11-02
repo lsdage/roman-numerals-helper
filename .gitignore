@@ -1,0 +1,4 @@
+*.o
+
+# binary
+roman
