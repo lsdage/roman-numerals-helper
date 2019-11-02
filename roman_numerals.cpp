@@ -33,6 +33,10 @@ int RomanNumerals::from_roman(std::string romanNumber)
 {
 	int result = 0;
 
+	if (romanNumber == "") {
+		return result;
+	}
+
 	int i = 0;
 	int currentNumber = 0;
 	int nextNumber = 0;
